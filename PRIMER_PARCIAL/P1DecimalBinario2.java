@@ -1,3 +1,4 @@
+package PRIMER_PARCIAL;
 import java.util.Scanner;
 
 class P1DecimalBinario {

@@ -1,3 +1,4 @@
+package PRIMER_PARCIAL;
 import java.util.Scanner;
 
 public class P5seriFact {
