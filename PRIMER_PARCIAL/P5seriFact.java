@@ -13,7 +13,7 @@ public class P5seriFact {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese la dimensión del vector: ");
+        System.out.print("Ingrese la dimension del vector: ");
         int n = scanner.nextInt();
 
         int v[], v2[];

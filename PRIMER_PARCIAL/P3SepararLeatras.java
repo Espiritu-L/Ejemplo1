@@ -49,6 +49,7 @@ public class P3SepararLeatras {
         m = new String[f][c];
         m1 = new String[f][c];
         System.out.println("INGRESAR ELEMENTOS A LA MATRIZ");
+        e.nextLine();
         for(int i=0; i<f; i++){
             for(int j=0; j<c; j++){
                 m[i][j] = e.nextLine(); // almacenando oraciones (cadenas con espacio)
