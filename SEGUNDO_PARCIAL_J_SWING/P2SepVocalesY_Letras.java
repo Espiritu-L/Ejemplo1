@@ -2,6 +2,8 @@
  La primera solo las vocales y la segunda lista solo las constantes
  mostrar las 3 listas
  */
+package SEGUNDO_PARCIAL_J_SWING;
+
 import javax.swing.*;
 public class P2SepVocalesY_Letras{
 // creando la lisat

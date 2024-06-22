@@ -1,7 +1,9 @@
-//package SIS2330_SEGUNDA_PARTE;
+
 /*Almacenar en una lista numeros enteros para luego pasar a otras
 dos listas, los num. primos y perfectos
  */
+package SEGUNDO_PARCIAL_J_SWING;
+
 import javax.swing.*;
 public class  P1Perfecto_Primo {
 
