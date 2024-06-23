@@ -42,14 +42,17 @@ public class  P1Perfecto_Primo {
         // para ver la lista
         void ver(Numero p1, String men){
             String dat = "";
-
+            int may = -999999;
             while (p1 != null) {
+                if(p1.dat > may){
+                    may = p1.dat;
+                }
                 dat = dat + " " + p1.dat;
-
+                
                 p1 = p1.sig;
             }
 
-            JOptionPane.showMessageDialog(null, men + "\n" + dat);
+            JOptionPane.showMessageDialog(null, men + "\n" + dat + "\n EL MAYOR ES: "+may);
         }
 
         // sol. del problema: teniendo la lista separar a otras dos lista los num. primos y perfectos
