@@ -293,7 +293,6 @@ void archivo::elifisica(char nomarch[]){
 void archivo::menu(char nomarch[]){
     int op = 0, ci;
     do{
-        
         system("cls"); // limpiar la pantalla
         cout << "\n=====================================================";
         cout << "\n\t PROCESAMIENTO DE ARCHIVOS";
@@ -365,7 +364,6 @@ void archivo::menu(char nomarch[]){
 }
 int main(){
     char noma[15];
-
     strcpy(noma,"curso.dat");
     archivo a;
     a.menu(noma);
